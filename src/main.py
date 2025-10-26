@@ -4,7 +4,7 @@ if os.path.exists('.env'):
       load_dotenv()
 
 import asyncio
-from agents import Agent, Runner
+from openai.agents import Agent, Runner
 from openai.types.responses import ResponseTextDeltaEvent
 import streamlit as st
 

@@ -12,6 +12,7 @@ ENV STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
 
 COPY pyproject.toml ./
 COPY src/ ./src/
+COPY README.md ./
 
 RUN pip3 install .
 
