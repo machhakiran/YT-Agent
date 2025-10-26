@@ -2,7 +2,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.proxies import GenericProxyConfig
 import re
 import os
-from openai.agents import function_tool
+from agents import function_tool
 
 @function_tool
 def fetch_video_transcript(url: str) -> str:
